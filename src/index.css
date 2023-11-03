@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+html {
+  font-size: 10px;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.23s;
+  background-image: linear-gradient(to bottom, #cf0768, #53536e);
+  background-repeat: no-repeat;
+}

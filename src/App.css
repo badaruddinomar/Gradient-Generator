@@ -1,0 +1,119 @@
+/* Common css styling starts from here */
+.flex-row {
+  display: flex;
+  align-items: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.flex-col {
+  flex-direction: column;
+}
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+/* common css stylings ends here */
+
+.container {
+  width: 500px;
+  height: auto;
+  padding: 2rem;
+  background: #ffffff;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 4px;
+  transition: all 0.23s;
+}
+.color-input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: transparent;
+  width: 80px;
+  height: 50px;
+  overflow: hidden;
+  margin: 20px 15px;
+  transition: all 0.23s;
+}
+.color-input:hover {
+  transform: translateY(1px);
+}
+.color-input::-webkit-color-swatch {
+  border-radius: 5px;
+  box-shadow: 20px 20px 70px #d4d4d4, -20px -20px 70px #ffffff;
+}
+.container .position-icons i {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 5px;
+  margin-bottom: 20px;
+  background: rgb(159, 155, 155);
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.23s;
+  color: white;
+}
+.container .position-icons i:hover {
+  transform: translateY(2px);
+}
+.container .generate-btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 1rem 1.5rem;
+  background-color: dodgerblue;
+  color: white;
+  border-radius: 4px;
+  margin: 20px;
+  transition: all 0.23s;
+}
+.container .generate-btn:hover {
+  transform: translateY(2px);
+}
+.container .output {
+  background-color: #d4d4d4;
+  padding: 1rem 1.5rem;
+  padding-bottom: 6rem;
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 300;
+  position: relative;
+  border-radius: 4px;
+}
+.container .output .copy-btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  padding: 1rem 1.5rem;
+  font-size: 16px;
+  background: dodgerblue;
+  border-radius: 4px;
+  margin-top: 10px;
+  position: absolute;
+  bottom: 0.5rem;
+  right: 0.5rem;
+  transition: all 0.23s;
+}
+.container .output .copy-btn:hover {
+  transform: translateY(1px);
+}
+@media (max-width: 550px) {
+  .container {
+    width: 100%;
+  }
+}
